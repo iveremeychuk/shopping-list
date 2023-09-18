@@ -1,7 +1,7 @@
 package com.example.shoppinglist.domain
 
-class EditShopItemUseCase(private val shopListRepository: ShopListRepository) {
+class EditShopItemUseCase(private val shopItemListRepository: ShopItemListRepository) {
     fun editShopItem(shopItem: ShopItem) {
-        shopListRepository.editShopItem(shopItem)
+        shopItemListRepository.editShopItem(shopItem)
     }
 }
